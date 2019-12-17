@@ -1,0 +1,19 @@
+.mat-card {
+  height: 100%;
+  text-align: center;
+  background: #fff;
+}
+.mat-expansion-panel-header {
+  height: 100% !important;
+  padding: 10px;
+}
+.darker-hover:hover {
+  background: grey !important;
+}
+img.brochure-image {
+  height: auto;
+  width: 170px;
+}
+ul.brochure-list{
+  list-style: none;
+}

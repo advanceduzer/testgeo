@@ -1,0 +1,59 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+* {
+  font-family: 'Muli', sans-serif;
+}
+a {
+  color: #1e3ea9;
+}
+body {
+  height: 100%;
+  width: 100%;
+  /* background-color: #1e3ea9;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"); */
+  /* background-color: #1e3ea9;
+  background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png"); */
+  /* background-color: #1e3ea9;
+  background-image: url("https://www.transparenttextures.com/patterns/padded.png"); */
+  background-color: #1e3ea9;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+.col-12 {
+  padding-right: 0px !important;
+}
+.col-md-6 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 0px !important;
+}
+.full-width {
+  width: 100%;
+}
+.main-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mat-card {
+  background-color: #f2f2f2;
+}
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px !important;
+}
+.visually-hidden {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

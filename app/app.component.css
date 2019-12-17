@@ -1,0 +1,20 @@
+.custom-shadow {
+  box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12) !important;
+}
+.navbar {
+  background-color: #f2f2f2;
+}
+.nav-link {
+  color: rgba(0,0,0,1) !important;
+}
+.nav-right-icon {
+  margin: 5px;
+  height: 30px;
+  width: auto;
+}
+.skip-to-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

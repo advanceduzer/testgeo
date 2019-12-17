@@ -1,0 +1,48 @@
+<div class="skip-to-main" style="background-color: #f2f2f2"><a href="#main-content">Skip to Main Content</a></div>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light custom-shadow">
+    <a class="navbar-brand" href="">Georgia CAP</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="">Home</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="" fragment="resources">Resources</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="" fragment="contact">Contact</a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a class="nav-link" routerLink="" fragment="faq">FAQ</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a href="https://www.instagram.com/gacap2/" target="_blank"><img class="nav-right-icon" src="assets/images/instagram.png" alt="georgia client assitance instagram, opens a new window"></a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a href="https://www.facebook.com/GACAP2/" target="_blank"><img class="nav-right-icon" src="assets/images/facebook.png" alt="georgia client assitance facebook, opens a new window"></a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a href="https://twitter.com/GACAP2" target="_blank"><img class="nav-right-icon" src="assets/images/twitter.png" alt="georgia client assitance twitter, opens a new window"></a>
+        </li>
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a href="https://www.linkedin.com/company/georgia-client-assistance-program/" target="_blank"><img class="nav-right-icon" src="assets/images/linkedin.png" alt="georgia client assitance linkedin, opens a new window"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="main-content" role="main">
+  <div>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <app-footer class="full-width custom-shadow" style="background-color: #f2f2f2;"></app-footer>
+</div>

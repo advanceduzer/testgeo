@@ -1,0 +1,25 @@
+.center-everything {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.75em;
+}
+.col-12 {
+  padding-right: 0px !important;
+}
+.eighty-width {
+  width: 80%;
+}
+.footer-image {
+  height: 75px;
+  width: auto;
+}
+.no-padding {
+  padding-right: 0;
+}
+.row {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
