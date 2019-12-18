@@ -139,5 +139,10 @@
       }
     }
   },
-  "defaultProject": "georgia-cap"
+  "defaultProject": "georgia-cap",
+  "cli": {
+    "warnings": {
+      "typescriptMismatch": false
+    }
+  }
 }
